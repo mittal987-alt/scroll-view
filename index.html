@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Scroll Driven Hero</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <main class="hero">
+
+        <!-- Navigation -->
+        <nav class="navbar">
+
+            <div class="logo">
+                ZFIZZ
+            </div>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#impact">Impact</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </nav>
+
+
+        <!-- Hero Content -->
+        <section class="hero-content">
+
+            <div class="hero-text">
+
+                <p class="eyebrow">
+                    SCROLL EXPERIENCE
+                </p>
+
+                <h1 class="hero-title">
+                    W E L C O M E
+                    <br>
+                    T O
+                    <br>
+                    Z F I Z Z
+                </h1>
+
+                <p class="hero-description">
+                    Experience a new way of interacting with
+                    digital products through motion,
+                    creativity and technology.
+                </p>
+
+            </div>
+
+
+            <!-- Main Animated Object -->
+            <div class="visual-wrapper">
+
+                <div class="glow"></div>
+
+                <div class="hero-object">
+                    <div class="object-inner">
+                        Z
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Statistics -->
+        <section class="stats" id="impact">
+
+            <div class="stat">
+
+                <span class="stat-number">
+                    95%
+                </span>
+
+                <span class="stat-label">
+                    User Engagement
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span class="stat-number">
+                    80%
+                </span>
+
+                <span class="stat-label">
+                    Faster Interaction
+                </span>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span class="stat-number">
+                    100%
+                </span>
+
+                <span class="stat-label">
+                    Creative Motion
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Scroll Indicator -->
+
+        <div class="scroll-indicator">
+
+            <span>
+                SCROLL TO EXPLORE
+            </span>
+
+            <div class="scroll-line"></div>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         SECOND SECTION
+    ========================== -->
+
+    <section class="content-section" id="about">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                ABOUT THE EXPERIENCE
+            </p>
+
+            <h2>
+                Motion that responds
+                to your movement.
+            </h2>
+
+            <p>
+                This section demonstrates how the hero
+                experience reacts to the user's scroll
+                position. The animation is controlled by
+                scroll progress rather than autoplay.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         THIRD SECTION
+    ========================== -->
+
+    <section class="content-section dark" id="contact">
+
+        <div class="content-container">
+
+            <p class="section-label">
+                KEEP EXPLORING
+            </p>
+
+            <h2>
+                Designed for smooth
+                digital experiences.
+            </h2>
+
+            <p>
+                Scroll back up and experience the animation
+                again.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GSAP -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js">
+    </script>
+
+    <!-- ScrollTrigger -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js">
+    </script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
